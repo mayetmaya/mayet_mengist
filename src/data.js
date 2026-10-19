@@ -58,19 +58,19 @@ export const education = [
 
 // status: 'deployed' | 'in-progress'.  github / demo: full URLs, or '' if not ready yet.
 export const projects = [
-  { title: 'Evangadi Forum', tag: 'AI-assisted Q&A platform', status: 'in-progress', featured: true,
+  { title: 'Evangadi Forum', tag: 'AI-assisted Q&A platform', status: 'deployed', featured: true,
     description: 'A collaborative question-and-answer application with user authentication, question/answer workflows and AI-assisted question drafting through a Gemini integration.',
     highlights: ['JWT-based authentication', 'REST API with Express + MySQL', 'Gemini-powered question drafting'],
     tech: ['React', 'Vite', 'Node.js', 'Express', 'MySQL', 'JWT', 'Gemini API'],
     github: 'https://github.com/mayetmaya/AI_Powered_Forum',   // ← EDIT
     demo: 'https://ai-powered-forum-eight.vercel.app/',     // ← EDIT (deployed frontend URL)
     image: '' },
-  { title: 'Netflix-Inspired Movie App', tag: 'Movie discovery interface', status: 'in-progress',
+  { title: 'Netflix-Inspired Movie App', tag: 'Movie discovery interface', status: 'deployed',
     description: 'A React interface that turns external REST API data into an interactive browsing experience, built from reusable components.',
     highlights: ['Reusable components', 'Async data fetching', 'Responsive layout'],
     tech: ['React', 'JavaScript', 'CSS', 'Vite', 'REST API'],
     github: 'https://github.com/mayetmaya/netflix-clone', demo: 'https://netflix-clone-one-roan-41.vercel.app/', image: '../public/netflix.png' },
-  { title: 'ChatGPT-Style AI App', tag: 'Conversational AI interface', status: 'in-progress',
+  { title: 'ChatGPT-Style AI App', tag: 'Conversational AI interface', status: 'deployed',
     description: 'A conversational web app that integrates a large language model API into a clean chat interface, focused on prompt design and safe handling of AI responses.',
     highlights: ['LLM API integration', 'Prompt design', 'Async HTTP/JSON communication'],
     tech: ['React', 'JavaScript', 'LLM API', 'HTTP/JSON'],
