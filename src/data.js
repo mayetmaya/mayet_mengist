@@ -69,7 +69,7 @@ export const projects = [
     description: 'A React interface that turns external REST API data into an interactive browsing experience, built from reusable components.',
     highlights: ['Reusable components', 'Async data fetching', 'Responsive layout'],
     tech: ['React', 'JavaScript', 'CSS', 'Vite', 'REST API'],
-    github: 'https://github.com/mayetmaya/netflix-clone', demo: 'https://netflix-clone-one-roan-41.vercel.app/', image: '../public/netflix.png' },
+    github: 'https://github.com/mayetmaya/netflix-clone', demo: 'https://netflix-clone-one-roan-41.vercel.app/', image: '/projects/netflix.png' },
   { title: 'ChatGPT-Style AI App', tag: 'Conversational AI interface', status: 'deployed',
     description: 'A conversational web app that integrates a large language model API into a clean chat interface, focused on prompt design and safe handling of AI responses.',
     highlights: ['LLM API integration', 'Prompt design', 'Async HTTP/JSON communication'],
