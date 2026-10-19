@@ -8,13 +8,13 @@ export const profile = {
   name: 'Mayet Mengist',
   roles: ['Full-Stack Application Developer', 'React & Node.js Developer', 'AI-Powered App Builder'],
   tagline: 'Electrical & Control Systems engineer turned full-stack developer — building reliable web apps with React, Node.js, MySQL and LLM APIs.',
-  availability: 'Open to junior roles',
-  email: 'your.email@example.com',          // ← EDIT
+  availability: 'Open to junior roles and System Design',
+  email: 'mayamayet23@gmail.com',          // ← EDIT
   location: 'Ethiopia',                      // ← EDIT (city, country)
   resume: '/resume.pdf',                     // ← put your CV in /public/resume.pdf
-  photo: '',                                 // ← e.g. '/me.jpg' (file in /public)
+  photo: '../public/me.jpg',                                 // ← e.g. '/me.jpg' (file in /public)
   formEndpoint: '',                          // optional Formspree URL
-  social: { github: '', linkedin: '', twitter: '' },   // ← EDIT: full URLs
+  social: { github: 'https://github.com/mayetmaya/ChatGPT', linkedin: '', twitter: '' },   // ← EDIT: full URLs
 };
 
 export const about = {
@@ -25,8 +25,9 @@ export const about = {
   ],
   stats: [
     { value: '5 yrs', label: 'Senior Technical Assistant' },
-    { value: '3 yrs', label: 'Electrician' },
+    { value: '3 yrs', label: 'Senior Control System Engineer' },
     { value: 'MSc', label: 'Control Systems · CGPA 3.85' },
+    { value: 'BSc', label: 'Electrical Engineering · CGPA 3.45' },
     { value: '3', label: 'Featured projects' },
   ],
   approach: [
@@ -41,14 +42,14 @@ export const experience = [
   { title: 'Senior Technical Assistant', company: 'University environment', date: '5 years',
     description: 'Technical work in an academic environment, supporting laboratories, equipment and systems.',
     skills: ['Troubleshooting', 'Technical support', 'Systems'] },
-  { title: 'Electrician', company: 'Practical electrical work', date: '3 years',
+  { title: 'Senior Control System Engineer', company: 'Practical electrical work', date: '3 years',
     description: 'Hands-on electrical installation and fault-finding that built a disciplined, safety-aware troubleshooting mindset.',
     skills: ['Fault-finding', 'Safety', 'Hands-on'] },
 ];
 
 export const education = [
-  { degree: 'Full-Stack Development Bootcamp', school: 'Six-month program', date: '2026',
-    description: 'React, Node.js, Express, MySQL and REST API development through project-based learning.' },
+  { degree: 'Full-Stack Development Bootcamp', school: 'Evangadi', date: '2026',
+    description: 'React, Node.js, Express, MySQL, AI Integration, Embedding, RAG and REST API development through project-based learning.' },
   { degree: 'MSc, Control Systems Engineering', school: 'Bahir Dar University', date: '2025 · CGPA 3.85',
     description: 'Systems modelling, analysis and control — the source of my systems-oriented approach.' },
   { degree: 'BSc, Electrical Engineering', school: 'Bahir Dar University', date: '2019 · CGPA 3.45',
@@ -61,19 +62,19 @@ export const projects = [
     description: 'A collaborative question-and-answer application with user authentication, question/answer workflows and AI-assisted question drafting through a Gemini integration.',
     highlights: ['JWT-based authentication', 'REST API with Express + MySQL', 'Gemini-powered question drafting'],
     tech: ['React', 'Vite', 'Node.js', 'Express', 'MySQL', 'JWT', 'Gemini API'],
-    github: '',   // ← EDIT
-    demo: '',     // ← EDIT (deployed frontend URL)
+    github: 'https://github.com/mayetmaya/AI_Powered_Forum',   // ← EDIT
+    demo: 'https://ai-powered-forum-eight.vercel.app/',     // ← EDIT (deployed frontend URL)
     image: '' },
   { title: 'Netflix-Inspired Movie App', tag: 'Movie discovery interface', status: 'in-progress',
     description: 'A React interface that turns external REST API data into an interactive browsing experience, built from reusable components.',
     highlights: ['Reusable components', 'Async data fetching', 'Responsive layout'],
     tech: ['React', 'JavaScript', 'CSS', 'Vite', 'REST API'],
-    github: '', demo: '', image: '' },
+    github: 'https://github.com/mayetmaya/netflix-clone', demo: 'https://netflix-clone-one-roan-41.vercel.app/', image: '../public/netflix.png' },
   { title: 'ChatGPT-Style AI App', tag: 'Conversational AI interface', status: 'in-progress',
     description: 'A conversational web app that integrates a large language model API into a clean chat interface, focused on prompt design and safe handling of AI responses.',
     highlights: ['LLM API integration', 'Prompt design', 'Async HTTP/JSON communication'],
     tech: ['React', 'JavaScript', 'LLM API', 'HTTP/JSON'],
-    github: '', demo: '', image: '' },
+    github: 'https://github.com/mayetmaya/ChatGPT', demo: 'https://chat-gpt-theta-one-54.vercel.app/', image: '' },
 ];
 
 export const skills = [
