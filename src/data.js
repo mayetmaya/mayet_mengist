@@ -14,7 +14,7 @@ export const profile = {
   resume: '/resume.pdf',                     // ← put your CV in /public/resume.pdf
   photo: '/me.jpg',                                 // ← e.g. '/me.jpg' (file in /public)
   formEndpoint: '',                          // optional Formspree URL
-  social: { github: 'https://github.com/mayetmaya/ChatGPT', linkedin: '', twitter: '' },   // ← EDIT: full URLs
+  social: { github: 'https://github.com/mayetmaya', linkedin: '', twitter: '' },   // ← EDIT: full URLs
 };
 
 export const about = {
