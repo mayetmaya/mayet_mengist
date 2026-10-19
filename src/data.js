@@ -12,7 +12,7 @@ export const profile = {
   email: 'mayamayet23@gmail.com',          // ← EDIT
   location: 'Ethiopia',                      // ← EDIT (city, country)
   resume: '/resume.pdf',                     // ← put your CV in /public/resume.pdf
-  photo: '../public/me.jpg',                                 // ← e.g. '/me.jpg' (file in /public)
+  photo: '/me.jpg',                                 // ← e.g. '/me.jpg' (file in /public)
   formEndpoint: '',                          // optional Formspree URL
   social: { github: 'https://github.com/mayetmaya/ChatGPT', linkedin: '', twitter: '' },   // ← EDIT: full URLs
 };
