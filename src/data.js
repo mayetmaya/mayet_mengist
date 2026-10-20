@@ -39,12 +39,12 @@ export const about = {
 };
 
 export const experience = [
-  { title: 'Senior Technical Assistant', company: 'University environment', date: '5 years',
+  { title: 'Senior Technical Assistant', company: 'Bahir Dar University ', date: '5 years',
     description: 'Technical work in an academic environment, supporting laboratories, equipment and systems.',
-    skills: ['Troubleshooting', 'Technical support', 'Systems'] },
+    skills: ['Systems Design ', 'Troubleshooting', 'Technical support' ] },
   { title: 'Senior Control System Engineer', company: 'Practical electrical work', date: '3 years',
     description: 'Hands-on electrical installation and fault-finding that built a disciplined, safety-aware troubleshooting mindset.',
-    skills: ['Fault-finding', 'Safety', 'Hands-on'] },
+    skills: ['PLC', 'HMI', 'SCADA', 'Fault-finding', 'Safety', 'Hands-on', 'MCC & PCC', 'Design Electrical Plant/System' ] },
 ];
 
 export const education = [
